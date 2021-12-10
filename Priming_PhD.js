@@ -9,12 +9,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/ep/quep5.
 					name : 'PhD', //Will appear in the data.
 					//An array of all media objects for this category.
 					mediaArray : [
-    				    {word : 'I like teaching'}, 
+    				        {word : 'I like teaching'}, 
     					{word : 'I like statistics'}, 
     					{word : 'I like learning'}, 
     					{word : 'I like studying'}, 
     					{word : 'My dream is to become professor'},
-              {word : 'I want to study social sciences'}    					 					
+                                        {word : 'I want to study social sciences'},
+					{word : 'I like teaching'}, 
+    					{word : 'I like statistics'}, 
+    					{word : 'I like learning'}, 
+    					{word : 'I like studying'}, 
+    					{word : 'My dream is to become professor'},
+                                        {word : 'I want to study social sciences'}
 				    ]
 				}, 
 				{
@@ -26,7 +32,13 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/ep/quep5.
     					{word : 'I am driving a car'}, 
     					{word : 'I am doing a psychological test'}, 
     					{word : 'I applied for a PhD at the VUB'},
-              {word : 'I applied for a PhD at Harvard'}
+              				{word : 'I applied for a PhD at Harvard'},
+					{word : 'I live in Belgium'}, 
+    					{word : 'I live in China'}, 
+    					{word : 'I am driving a car'}, 
+    					{word : 'I am doing a psychological test'}, 
+    					{word : 'I applied for a PhD at the VUB'},
+              				{word : 'I applied for a PhD at Harvard'}
     				]
 				}
 			],	
