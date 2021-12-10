@@ -107,9 +107,11 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				//Block 1
 				firstBlock : '<div><p style="font-size:1.3em; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 				'Put your index fingers on the <b>E</b> and <b>I</b> keys of your keyboard. ' + 
-				'Read all the sentences and the words that appear on the screen.' +
+				'' +
+				'Read all the sentences and the words that appear on the screen: ' +
 				'If the word <b>False</b> appears, press <b>E</b>. ' + 
-				'If the word <b>True</b> appears, press <b>I</b>.' + 
+				'If the word <b>True</b> appears, press <b>I</b>.' +
+				'' +
 				'If you make an error, an </color> <font color="#ff0000"><b>X</b></font> will appear.<br/><br/>' + 
 				'This is a timed sorting task. <b>GO AS FAST AS YOU CAN</b> while making as few mistakes as possible.' + 
 				'</color></p><p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
