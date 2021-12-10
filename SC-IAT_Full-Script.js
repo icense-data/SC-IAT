@@ -13,9 +13,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				maxWidth: 725,
 				proportions : 0.7,
 				background: '#ffffff',
-				borderWidth: 5,
+				borderWidth: 2,
 				canvasBackground: '#ffffff',
-				borderColor: 'lightblue'
+				borderColor: '#FF6600'
 			}, 
 			//Define the category.
 			category :  
