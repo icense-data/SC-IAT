@@ -22,7 +22,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 		var epObj =
 		{
 			//The CSS for all the prime stimuli.
-			primeStimulusCSS : {color:'#0000FF','font-size':'2.3em'},
+			primeStimulusCSS : {color:'#003399','font-size':'2em','font-family':'Verdana', 'font-weight':'bold'},
 			//The prime categories.
 			primeCats :  [
 				{
@@ -41,7 +41,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					name : 'True', 
 					title : {
 						media : {word : 'True'}, //Name of the attribute presented in the task.
-						css : {color:'#0000FF','font-size':'3em'} //Style of the attribute title.
+						css : {color:'#FF6600','font-size':'3em'} //Style of the attribute title.
 					}, 
 					mediaArray : [
 						{word: 'True'},
@@ -59,13 +59,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						{word: 'True'},
 						{word: 'True'}
 					], 
-					stimulusCSS : {color:'#0000FF','font-size':'2em'}
+					stimulusCSS : {color:'#FF6600','font-size':'2em'}
 				}, 
 				leftAttTargets : {
 					name : 'False', 
 					title : {
 						media : {word : 'False'}, //Name of the attribute presented in the task.
-						css : {color:'#0000FF','font-size':'3em'} //Style of the attribute title.
+						css : {color:'#FF6600','font-size':'3em'} //Style of the attribute title.
 					}, 
 					mediaArray : [
 						{word: 'False'},
@@ -83,7 +83,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						{word: 'False'},
 						{word: 'False'}
 					],
-					stimulusCSS : {color:'#0000FF','font-size':'2em'}
+					stimulusCSS : {color:'#FF6600','font-size':'2em'}
 				}
 			},
 			
@@ -106,12 +106,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instructions : {
 				//Block 1
 				firstBlock : '<div><p style="font-size:1.3em; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-				'Put your middle or index fingers on the <b>E</b> and <b>I</b> keys of your keyboard. ' + 
-				'Pairs of items (words and images) will appear one after another. ' + 
-				'For each pair of items, ignore the first item and categorize the second item as posAttribute'  + 
-				' or negAttribute.<br/><br/>' + 
-				'When the second item you see belongs to the category "negAttribute", press <b>E</b>; ' + 
-				'when the item belongs to the category "posAttribute", press <b>I</b>. ' + 
+				'Put your index fingers on the <b>E</b> and <b>I</b> keys of your keyboard. ' + 
+				'Read all the sentences and the words that appear on the screen.' +
+				'If the word <b>False</b> appears, press <b>E</b>. ' + 
+				'If the word <b>True</b> appears, press <b>I</b>.' + 
 				'If you make an error, an </color> <font color="#ff0000"><b>X</b></font> will appear.<br/><br/>' + 
 				'This is a timed sorting task. <b>GO AS FAST AS YOU CAN</b> while making as few mistakes as possible.' + 
 				'</color></p><p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
@@ -139,9 +137,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				maxWidth: 775,
 				proportions : 0.85,
 				background: '#ffffff',
-				borderWidth: 5,
+				borderWidth: 10,
 				canvasBackground: '#ffffff',
-				borderColor: 'lightblue'
+				borderColor: '#003399'
 			}, 
 			//Set the image folder here.
 			base_url : {
@@ -312,7 +310,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 		//Define the basic trial (the prsentation of the images and words)
 		API.addTrialSets({
 			basicTrial: [{
-				data : {score:0},// by default each trial is crrect, this is modified in case of an error
+				data : {score:0},// by default each trial is correct, this is modified in case of an error
 				//Layout defines what will be presented in the trial. It is like a background display.
 				layout: [
 					{location:{left:2,top:1},media:{word:'key: E'}, css:{color:'#000000','font-size':'1em'}},
