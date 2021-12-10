@@ -87,7 +87,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				}
 			},
 			
-			nTrialsPerPrimeTargetPair:15, //How many trials in a block, per prime-target combination (always three blocks).
+			nTrialsPerPrimeTargetPair:1, //How many trials in a block, per prime-target combination (always three blocks).
 			nBlocks : 3,
 			
 			//Whether to select the prime and targe stimuli randomly without repetition for each prime-target combination until exhuastion
