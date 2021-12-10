@@ -147,19 +147,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			base_url : {
 				image : 'https://galmaimon.github.io/iatage'
 			}, 
-			primeDuration : 250, //Default prime duration
+			primeDuration : 1000, //Default prime duration
 			fixationDuration : 250, //No fixation by default
 			//Change the fixation stimulus here
 			fixationStimulus : {
 				css : {color:'black', 'font-size':'3em'}, 
 				media : {word:'+'}
 			}, 
-			deadlineDuration : 1000, //0 means no response deadline: we wait until response.
+			deadlineDuration : 750, //0 means no response deadline: we wait until response.
 			//Change the deadline message stimulus here
 			deadlineStimulus : {
 				css : {color:'red', 'font-size':'2.5em'}, 
 				media : {word:'!!!PLEASE RESPOND FASTER!!!'}, 
-				location: {bottom:10}
+				location: {bottom:5}
 			}, 
 			deadlineMsgDuration : 750, 
 			errorFBDuration : 750, 
