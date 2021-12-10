@@ -51,13 +51,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						{word: 'True'},
 						{word: 'True'},
 						{word: 'True'},
-						{word: 'True'},
-						{word: 'True'},
-						{word: 'True'},
-						{word: 'True'},
-						{word: 'True'},
-						{word: 'True'},
-						{word: 'True'}
+						//{word: 'True'},
+						//{word: 'True'},
+						//{word: 'True'},
+						//{word: 'True'},
+						//{word: 'True'},
+						//{word: 'True'},
+						//{word: 'True'}.
 					], 
 					stimulusCSS : {color:'#FF6600','font-size':'2em'}
 				}, 
@@ -75,19 +75,19 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						{word: 'False'},
 						{word: 'False'},
 						{word: 'False'},
-						{word: 'False'},
-						{word: 'False'},
-						{word: 'False'},
-						{word: 'False'},
-						{word: 'False'},
-						{word: 'False'},
-						{word: 'False'}
+						//{word: 'False'},
+						//{word: 'False'},
+						//{word: 'False'},
+						//{word: 'False'},
+						//{word: 'False'},
+						//{word: 'False'},
+						//{word: 'False'}.
 					],
 					stimulusCSS : {color:'#FF6600','font-size':'2em'}
 				}
 			},
 			
-			nTrialsPerPrimeTargetPair:1, //How many trials in a block, per prime-target combination (always three blocks).
+			nTrialsPerPrimeTargetPair:2, //How many trials in a block, per prime-target combination (always three blocks).
 			nBlocks : 3,
 			
 			//Whether to select the prime and targe stimuli randomly without repetition for each prime-target combination until exhuastion
