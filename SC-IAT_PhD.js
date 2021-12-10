@@ -3,9 +3,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Wanting a PhD', //Will appear in the data.
+		    name : 'Doing a PhD', //Will appear in the data.
 		    title : {
-		      media : {word : 'PhD'}, //Name of the category presented in the task.
+		      media : {word : 'Doing a PhD'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
@@ -23,7 +23,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 
   		attribute1 : 
 			{
-			name : 'Other', //Attribute label
+			name : 'False', //Attribute label
 			title : {
 				media : {word : 'False'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
@@ -44,7 +44,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			{
 			name : 'True', //Attribute label
 			title : {
-				media : {word : 'Self'}, //Name of the category presented in the task.
+				media : {word : 'True'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
