@@ -14,13 +14,13 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/Priming_Full_Script.js']
     					{word : 'I like learning'}, 
     					{word : 'I like studying'}, 
     					{word : 'I want to become a professor'},
-                                        {word : 'I want to study social sciences'},
-					{word : 'I am ambitious'}, 
-    					{word : 'I do not give up easily'}, 
-    					{word : 'I am looking forward to start the PhD'}, 
-    					{word : 'I like science'}, 
-    					{word : 'I like writing'},
-                                        {word : 'I like to study hard'}
+                                        //{word : 'I want to study social sciences'},
+					//{word : 'I am ambitious'}, 
+    					//{word : 'I do not give up easily'}, 
+    					//{word : 'I am looking forward to start the PhD'}, 
+    					//{word : 'I like science'}, 
+    					//{word : 'I like writing'},
+                                        //{word : 'I like to study hard'}.
 				    ]
 				}, 
 				{
@@ -32,18 +32,18 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/Priming_Full_Script.js']
     					{word : 'I am driving a car'}, 
     					{word : 'I am doing a psychological test'}, 
     					{word : 'I applied for a PhD at the VUB'},
-              				{word : 'I applied for a PhD at Harvard'},
-					{word : 'I am looking at the screen'}, 
-    					{word : 'I am having lunch'}, 
-    					{word : 'I work for the NASA'}, 
-    					{word : 'I am using a keyboard'}, 
-    					{word : 'I am 100 years old'},
-              				{word : 'I am running the marathon'}
+              				//{word : 'I applied for a PhD at Harvard'},
+					//{word : 'I am looking at the screen'}, 
+    					//{word : 'I am having lunch'}, 
+    					//{word : 'I work for the NASA'}, 
+    					//{word : 'I am using a keyboard'}, 
+    					//{word : 'I am 100 years old'},
+              				//{word : 'I am running the marathon'}.
     				]
 				}
 			],	
 
-			nTrialsPerPrimeTargetPair:15, //How many trials in a block, per prime-target combination (always three blocks).
+			nTrialsPerPrimeTargetPair:1, //How many trials in a block, per prime-target combination (always three blocks).
 			fixationDuration : 500, 
 			errorFBDuration : 1500, 
 			ITIDuration : 500,
