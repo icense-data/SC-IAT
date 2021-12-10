@@ -147,8 +147,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			base_url : {
 				image : 'https://galmaimon.github.io/iatage'
 			}, 
-			primeDuration : 1500, //Default prime duration
-			fixationDuration : 0, //No fixation by default
+			primeDuration : 500, //Default prime duration
+			fixationDuration : 250, //No fixation by default
 			//Change the fixation stimulus here
 			fixationStimulus : {
 				css : {color:'black', 'font-size':'3em'}, 
