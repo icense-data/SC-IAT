@@ -6,7 +6,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		    name : 'Doing a PhD', //Will appear in the data.
 		    title : {
 		      media : {word : 'Doing a PhD'}, //Name of the category presented in the task.
-		      css : {color:'#003399','font-size':'1em','font-family': 'Verdana'}, //Style of the category title.
+		      css : {color:'#003399','font-size':'1.5em','font-family': 'Verdana'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
@@ -26,7 +26,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			name : 'False', //Attribute label
 			title : {
 				media : {word : 'False'}, //Name of the category presented in the task.
-				css : {color:'#003399','font-size':'1em', 'font-family': 'Verdana'}, //Style of the category title.
+				css : {color:'#003399','font-size':'1.5em', 'font-family': 'Verdana'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
@@ -45,7 +45,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			name : 'True', //Attribute label
 			title : {
 				media : {word : 'True'}, //Name of the category presented in the task.
-				css : {color:'#003399','font-size':'1em', 'font-family': 'Verdana'}, //Style of the category title.
+				css : {color:'#003399','font-size':'1.5em', 'font-family': 'Verdana'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
