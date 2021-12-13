@@ -87,7 +87,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				}
 			},
 			
-			nTrialsPerPrimeTargetPair:3, //How many trials in a block, per prime-target combination (always three blocks).
+			nTrialsPerPrimeTargetPair:10, //How many trials in a block, per prime-target combination (always three blocks).
 			nBlocks : 3,
 			
 			//Whether to select the prime and targe stimuli randomly without repetition for each prime-target combination until exhuastion
@@ -154,7 +154,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				css : {color:'black', 'font-size':'3em'}, 
 				media : {word:'+'}
 			}, 
-			deadlineDuration : 1500, //0 means no response deadline: we wait until response.
+			deadlineDuration : 1200, //0 means no response deadline: we wait until response.
 			//Change the deadline message stimulus here
 			deadlineStimulus : {
 				css : {color:'red', 'font-size':'2.5em'}, 
