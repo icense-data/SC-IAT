@@ -87,7 +87,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				}
 			},
 			
-			nTrialsPerPrimeTargetPair:2, //How many trials in a block, per prime-target combination (always three blocks).
+			nTrialsPerPrimeTargetPair:3, //How many trials in a block, per prime-target combination (always three blocks).
 			nBlocks : 3,
 			
 			//Whether to select the prime and targe stimuli randomly without repetition for each prime-target combination until exhuastion
@@ -109,25 +109,25 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'Put your index fingers on the <b>E</b> and <b>I</b> keys of your keyboard. ' + 
 				'' +
 				'Read all the sentences and the words that appear on the screen: ' +
-				'If the word <b>False</b> appears, press <b>E</b>. ' + 
-				'If the word <b>True</b> appears, press <b>I</b>.' +
+				'If <b>False</b> appears, press <b>E</b>. ' + 
+				'If <b>True</b> appears, press <b>I</b>.' +
 				'' +
 				'If you make an error, an </color> <font color="#ff0000"><b>X</b></font> will appear.<br/><br/>' + 
-				'This is a timed sorting task. <b>GO AS FAST AS YOU CAN</b> while making as few mistakes as possible.' + 
+				'This is a timed test, so <b>GO AS FAST AS YOU CAN</b> while making as few mistakes as possible!' + 
 				'</color></p><p style="font-size:14px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 				'press SPACE to begin</p><p style="font-size:12px; text-align:center; font-family:arial">' + 
 				'<color="000000">[Round 1 of nBlocks]</p></div>', 
 				//Block 2
 				middleBlock : '<div><p style="font-size:1.3em; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-				'Press SPACE to continue with the same task.<br/><br/>' + 
-				'Ignore the first item and categorize the second item.<br/><br/>' + 
-				'Press <b>E</b> if the second item is negAttribute.<br/>' + 
-				'Press <b>I</b> if the second item is posAttribute.</p><br/><br/>' + 
+				'Take a short break if you want. Press SPACE to continue.<br/><br/>' + 
+				//'Ignore the first item and categorize the second item.<br/><br/>' + 
+				//'Press <b>E</b> if the second item is negAttribute.<br/>' + 
+				//'Press <b>I</b> if the second item is posAttribute.</p><br/><br/>' + 
 				'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 				'<color="000000">[Round blockNum of nBlocks]</p></div>', 
 				//Block 3
 				lastBlock : '<div><p style="font-size:1.3em; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-				'This task can be a little exhausting. ' + 
+				'This task can be a little tiring, but this is the last block! ' + 
 				'Try to challenge yourself to respond as quickly as you can without making mistakes.<br/><br/>' + 
 				'Press SPACE for the final round.</p><br/><br/>' + 
 				'<p style="font-size:12px; text-align:center; font-family:arial">' + 
@@ -154,7 +154,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				css : {color:'black', 'font-size':'3em'}, 
 				media : {word:'+'}
 			}, 
-			deadlineDuration : 750, //0 means no response deadline: we wait until response.
+			deadlineDuration : 1500, //0 means no response deadline: we wait until response.
 			//Change the deadline message stimulus here
 			deadlineStimulus : {
 				css : {color:'red', 'font-size':'2.5em'}, 
