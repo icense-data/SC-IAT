@@ -11,10 +11,10 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/Priming_Full_Script.js']
 					mediaArray : [
     				        {word : 'I like teaching'}, 
     					{word : 'I like statistics'}, 
-    					{word : 'I can talk clearly about my needs'}, 
-    					{word : 'I like reading scientific papers.'}, 
+    					{word : 'I can talk about my needs'}, 
+    					{word : 'I like reading scientific papers'}, 
     					{word : 'I want to become a professor'},
-                                        {word : 'I like to read about social sciences.'},
+                                        {word : 'I like to read about social sciences'},
 					{word : 'I am very ambitious'}, 
     					{word : 'I do not give up easily'}, 
     					{word : 'I am looking forward to start a PhD'}, 
@@ -43,9 +43,9 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/Priming_Full_Script.js']
 				}
 			],	
 
-			nTrialsPerPrimeTargetPair:10, //How many trials in a block, per prime-target combination (always three blocks).
+			nTrialsPerPrimeTargetPair:5, //How many trials in a block, per prime-target combination (always three blocks).
 			fixationDuration : 500, 
-			errorFBDuration : 1000, 
+			errorFBDuration : 750, 
 			ITIDuration : 300,
 
 			//Set the image folder here.
