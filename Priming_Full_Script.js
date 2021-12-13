@@ -154,7 +154,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				css : {color:'black', 'font-size':'3em'}, 
 				media : {word:'+'}
 			}, 
-			deadlineDuration : 1200, //0 means no response deadline: we wait until response.
+			deadlineDuration : 1000, //0 means no response deadline: we wait until response.
 			//Change the deadline message stimulus here
 			deadlineStimulus : {
 				css : {color:'red', 'font-size':'2.5em'}, 
