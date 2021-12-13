@@ -12,10 +12,10 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/Priming_Full_Script.js']
     				        {word : 'I like teaching'}, 
     					{word : 'I like statistics'}, 
     					{word : 'I like learning'}, 
-    					{word : 'I like studying'}, 
+    					{word : 'I like reading scientific papers.'}, 
     					{word : 'I want to become a professor'},
-                                        {word : 'I want to study social sciences'},
-					{word : 'I am ambitious'}, 
+                                        {word : 'I like to read about social sciences.'},
+					{word : 'I am very ambitious'}, 
     					//{word : 'I do not give up easily'}, 
     					//{word : 'I am looking forward to start the PhD'}, 
     					//{word : 'I like science'}, 
@@ -31,9 +31,9 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/Priming_Full_Script.js']
     					{word : 'I live in China'}, 
     					{word : 'I am driving a car'}, 
     					{word : 'I am doing a psychological test'}, 
-    					{word : 'I applied for a PhD at the VUB'},
-              				{word : 'I applied for a PhD at Harvard'},
-					{word : 'I am looking at the screen'}, 
+    					{word : 'I work for the NASA'},
+              				{word : 'I am 97 years old'},
+					{word : 'I am looking at a computer screen'}, 
     					//{word : 'I am having lunch'}, 
     					//{word : 'I work for the NASA'}, 
     					//{word : 'I am using a keyboard'}, 
@@ -43,10 +43,10 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/Priming_Full_Script.js']
 				}
 			],	
 
-			nTrialsPerPrimeTargetPair:2, //How many trials in a block, per prime-target combination (always three blocks).
+			nTrialsPerPrimeTargetPair:3, //How many trials in a block, per prime-target combination (always three blocks).
 			fixationDuration : 500, 
 			errorFBDuration : 1500, 
-			ITIDuration : 500,
+			ITIDuration : 400,
 
 			//Set the image folder here.
 			base_url : {
