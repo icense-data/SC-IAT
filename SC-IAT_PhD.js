@@ -3,10 +3,10 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/SC-IAT_Full-Script.js'],
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Doing a PhD', //Will appear in the data.
+		    name : 'Colored Font', //Will appear in the data.
 		    title : {
-		      media : {word : 'Doing a PhD'}, //Name of the category presented in the task.
-		      css : {color:'#003399','font-size':'1.5em','font-family': 'Verdana'}, //Style of the category title.
+		      media : {word : 'Colored Font'}, //Name of the category presented in the task.
+		      css : {color:'#FF6600','font-size':'1.5em','font-family': 'Verdana'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
@@ -18,7 +18,7 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/SC-IAT_Full-Script.js'],
     			{word : 'I look forward to start the PhD'}
 		    ], 
 		    //Stimulus css (style)
-		    css : {color:'#003399','font-size':'2em','font-family': 'Verdana'}
+		    css : {color:'#FF6600','font-size':'2em','font-family': 'Verdana'}
 		  },	
 
   		attribute1 : 
@@ -26,26 +26,26 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/SC-IAT_Full-Script.js'],
 			name : 'False', //Attribute label
 			title : {
 				media : {word : 'False'}, //Name of the category presented in the task.
-				css : {color:'#003399','font-size':'1.5em', 'font-family': 'Verdana'}, //Style of the category title.
+				css : {color:'#000000','font-size':'1.5em', 'font-family': 'Verdana'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'I am walking outside'},
-				{word: 'I am watching TV'},
-				{word: 'I live in China'},
-				{word: 'I am playing tennis'},
-				{word: 'I am driving a car'},
-				{word: 'I am sleeping'}
+				{word: 'I work at the NASA'},
+				{word: 'I am a member of the EU parliament'},
+				{word: 'I live in Hawaii'},
+				{word: 'I am 75 years old'},
+				{word: 'I have 8 daughters'},
+				{word: 'I am a teenager'}
 			], 
 			//Can change color and size of the targets here.
-			css : {color:'#003399','font-size':'2em', 'font-family': 'Verdana'}
+			css : {color:'#000000','font-size':'2em', 'font-family': 'Verdana'}
 			},
 		attribute2 : 
 			{
 			name : 'True', //Attribute label
 			title : {
 				media : {word : 'True'}, //Name of the category presented in the task.
-				css : {color:'#003399','font-size':'1.5em', 'font-family': 'Verdana'}, //Style of the category title.
+				css : {color:'#000000','font-size':'1.5em', 'font-family': 'Verdana'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
@@ -57,7 +57,7 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/SC-IAT_Full-Script.js'],
 				{word: 'I am using the keyboard'}
 			], 
 			//Can change color and size of the targets here.
-			css : {color:'#003399','font-size':'2em', 'font-family': 'Verdana'}
+			css : {color:'#000000','font-size':'2em', 'font-family': 'Verdana'}
 			},
 
   base_url : {//Where are your images at?
