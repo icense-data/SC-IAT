@@ -10,12 +10,12 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/SC-IAT_Full-Script.js'],
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{word : 'I am sure of doing a PhD'}, 
-    			{word : 'I want to do research'}, 
-    			{word : 'I know I can do a PhD'}, 
-    			{word : 'I plan to finish my PhD'}, 
-    			{word : 'I am convinced of doing a PhD'}, 
-    			{word : 'I look forward to start the PhD'}
+    		    	{word : 'I like teaching'}, 
+    			{word : 'I like reading scientific papers'}, 
+    			{word : 'I am very ambitious'}, 
+    			{word : 'I do not give up easily'}, 
+    			{word : 'I like statistics'}, 
+    			{word : 'I do not give up easily'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#FF6600','font-size':'2em','font-family': 'Verdana'}
