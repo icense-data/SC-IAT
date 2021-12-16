@@ -90,34 +90,34 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				{ 
 					instHTML : '', 
 					block : 2, 
-					miniBlocks : 2, 
-					singleAttTrials : 8, 
-					sharedAttTrials : 5, 
-					categoryTrials : 5
+					miniBlocks : 1, 
+					singleAttTrials : 6, 
+					sharedAttTrials : 3, 
+					categoryTrials : 3
 				}, 
 				{ 
 					instHTML : '', 
 					block : 3, 
-					miniBlocks : 2, 
-					singleAttTrials : 8, 
-					sharedAttTrials : 5, 
-					categoryTrials : 5
+					miniBlocks : 1, 
+					singleAttTrials : 6, 
+					sharedAttTrials : 3, 
+					categoryTrials : 3
 				}, 
 				{ 
 					instHTML : '', 
 					block : 4, 
-					miniBlocks : 2, 
-					singleAttTrials : 8, 
-					sharedAttTrials : 5, 
-					categoryTrials : 5
+					miniBlocks : 1, 
+					singleAttTrials : 6, 
+					sharedAttTrials : 3, 
+					categoryTrials : 3
 				}, 
 				{ 
 					instHTML : '', 
 					block : 5, 
-					miniBlocks : 2, 
-					singleAttTrials : 8, 
-					sharedAttTrials : 5, 
-					categoryTrials : 5
+					miniBlocks : 1, 
+					singleAttTrials : 6, 
+					sharedAttTrials : 3, 
+					categoryTrials : 3
 				}
 			],
 			//All blocks show attribute1 on the left and attribute2 on the right. 
@@ -165,9 +165,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute1</font>.<br/>' + 
+				'<font color="#000000">attribute1</font>.<br/>' + 
 				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute2</font>.<br/>' + 
+				'<font color="#000000">attribute2</font>.<br/>' + 
 				'Items will appear one at a time.<br/><br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 				'Press the other key to continue.<br/><br/>' + 
@@ -176,10 +176,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute1</font>.<br/>' + 
+				'<font color="#000000">attribute1</font>.<br/>' + 
 				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute2</font> ' +
-				'and for items that belong to the category <font color="#31b404">thecategory</font>.<br/>' + 
+				'<font color="#000000">attribute2</font> ' +
+				'and for items that belong to the category <font color="#000000">thecategory</font>.<br/>' + 
 				'Items will appear one at a time.<br/><br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 				'Press the other key to continue.<br/><br/>' + 
@@ -188,10 +188,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute1</font> ' +
-				'and for items that belong to the category <font color="#31b404">thecategory</font>.<br/>' + 
+				'<font color="#000000">attribute1</font> ' +
+				'and for items that belong to the category <font color="#000000">thecategory</font>.<br/>' + 
 				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
-				'<font color="#31b404">attribute2</font>.<br/>' + 
+				'<font color="#000000">attribute2</font>.<br/>' + 
 				'Items will appear one at a time.<br/><br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 				'Press the other key to continue.<br/><br/>' + 
@@ -200,13 +200,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//The default feedback messages for each cutoff. 
 			//If you put attribute1, attribute2 and category here, 
 			//these will be replaced with the names of attribute1, attribute2 and category.
-			fb_strongAssociationWithAttribute2 : 'Your data suggest a strong positive automatic attitude toward thecategory.',
-			fb_moderateAssociationWithAttribute2 : 'Your data suggest a moderate positive automatic attitude toward thecategory.',
-			fb_weakAssociationWithAttribute2 : 'Your data suggest a weak positive automatic attitude toward thecategory.',
+			fb_strongAssociationWithAttribute2 : 'Your data suggest a strong positive automatic attitude toward the category.',
+			fb_moderateAssociationWithAttribute2 : 'Your data suggest a moderate positive automatic attitude toward the category.',
+			fb_weakAssociationWithAttribute2 : 'Your data suggest a weak positive automatic attitude toward the category.',
 			fb_neutralAssociation : 'Your data suggest a neutral automatic attitude toward thecategory.',
-			fb_weakAssociationWithAttribute1 : 'Your data suggest a weak negative automatic attitude toward thecategory.' ,
-			fb_moderateAssociationWithAttribute1 : 'Your data suggest a moderate negative automatic attitude toward thecategory.' ,
-			fb_strongAssociationWithAttribute1 : 'Your data suggest a strong negative automatic attitude toward thecategory.', 
+			fb_weakAssociationWithAttribute1 : 'Your data suggest a weak negative automatic attitude toward the category.' ,
+			fb_moderateAssociationWithAttribute1 : 'Your data suggest a moderate negative automatic attitude toward the category.' ,
+			fb_strongAssociationWithAttribute1 : 'Your data suggest a strong negative automatic attitude toward the category.', 
 			
 			//Error messages in the scorer. If empty then we use the scorer's default messages.
 			manyErrors: '',
