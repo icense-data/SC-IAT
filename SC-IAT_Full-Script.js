@@ -164,22 +164,22 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instTemplatePractice : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks</u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
-				'<font color="#000000">attribute1</font>.<br/>' + 
-				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
-				'<font color="#000000">attribute2</font>.<br/>' + 
-				'Items will appear one at a time.<br/><br/>' + 
+				'Put a left finger on the <b>E</b> key for statements that are ' + 
+				'<b><font color="#000000">attribute1</font></b>.<br/>' + 
+				'Put a right finger on the <b>I</b> key for statements that are ' + 
+				'<b><font color="#000000">attribute2</font></b>.<br/>' + 
+				'Items will appear one at a time. <b>Respond as fast as possible! </b><br/><br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 				'Press the other key to continue.<br/><br/>' + 
 				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>', 
 			instTemplateCategoryRight : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
+				'Put a left finger on the <b>E</b> key for statements that are ' + 
 				'<font color="#000000">attribute1</font>.<br/>' + 
-				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
+				'Put a right finger on the <b>I</b> key for statements that are ' + 
 				'<font color="#000000">attribute2</font> ' +
-				'and for items that belong to the category <font color="#000000">thecategory</font>.<br/>' + 
+				'and for statements that are written in <font color="#000000">thecategory</font>.<br/>' + 
 				'Items will appear one at a time.<br/><br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
 				'Press the other key to continue.<br/><br/>' + 
@@ -187,10 +187,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instTemplateCategoryLeft : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' + 
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category ' + 
+				'Put a left finger on the <b>E</b> key for statements that are ' + 
 				'<font color="#000000">attribute1</font> ' +
-				'and for items that belong to the category <font color="#000000">thecategory</font>.<br/>' + 
-				'Put a right finger on the <b>I</b> key for items that belong to the category ' + 
+				'and for statements that are written in <font color="#000000">thecategory</font>.<br/>' + 
+				'Put a right finger on the <b>I</b> key for statements that are ' + 
 				'<font color="#000000">attribute2</font>.<br/>' + 
 				'Items will appear one at a time.<br/><br/>' + 
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' + 
