@@ -13,9 +13,9 @@ define(['pipAPI', 'https://icense-data.github.io/SC-IAT/SC-IAT_Full-Script.js'],
     			{word : 'I like reading scientific papers'}, 
     			{word : 'I am very ambitious'}, 
    			{word : 'I am very good at statistics'},
-			{word : 'I find research very boring'},
+			{word : 'I think research is very boring'},
 			{word : 'I am bad at statistics'},
-			{word : 'I want to work in the provate sector'},
+			{word : 'I am planning to work in the private sector'},
 			    
 		    ], 
 		    //Stimulus css (style)
